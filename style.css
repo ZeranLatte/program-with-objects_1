@@ -1,0 +1,40 @@
+.Concept{
+	color: rgb(60,120,120);
+	font-size: 25px;
+	font: Arial;
+	margin-left: 5px;
+
+}
+.L_title {
+	font: Helvetica;
+	font-size: 20px;
+	background-color: rgb(180,220,250);
+	margin: 0.9cm 0.9cm 0.6cm 0.2cm;
+	width: 150px
+}
+
+.Lesson {
+	border: 0.03cm solid black;
+	margin-bottom: 10px;
+
+	background-color: rgb(240,255,255)
+}
+
+.Text {
+	color: rgb(60,60,90);
+	max-width: 800px;
+	margin-left: 5px;
+	font-size: 16px;
+}
+
+.image {
+	width: 400px;
+	margin: 0.5cm;
+	
+}
+.app{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}

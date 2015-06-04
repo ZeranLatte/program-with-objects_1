@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Project_1</title>
+  <!--title is the name of this page which will not be diaplayed to the user as part of HTML but on the browser tab. -->
+</head>
+
+<body>
+
+  <!-- This is comment section marked by <!- - -->
+
+
+<!-- <h1> is heading word tag, there are h1 to h6. These are block type tags.
+-->
+<h1>
+  Project 1 Stage 1
+</h1>
+
+<div class="Lesson">
+  <div class="L_title"> Stage 0 notes</div>
+  <div class="Concept"><b>1.Internet, Web, HTML</b></div>
+  <div class="Text"> <p>Web is a collection of internet pages. Pages is made from HTML. Users send requests to servers which store pages. Contents of HTML include hyper links, text, images and links to other pages. 30 billions pages.
+  </P></div>
+
+  <div class="Concept"><b>2.Making HTML</b></div>
+  <div class="Text"><p>Tags or elements are marks that tell computer to display contents in certain way. 2 types of tags are <em>inline</em> and <em>block</em>. Inline ignores whitespace;block put content in a box. Format is &lt;tag_name> content &lt;/tag_name> Arrtributes are used within the tag to make specifications.</p></div>
+
+  <div class="Concept"><b>3.Example</b></div>
+  <div class="Text"><p>&lt;a href = "http://www.rogerfederer.com"> <em>link</em> &lt;/a> append <a href = "http://www.rogerfederer.com">this link</a></p></div>
+</div>
+
+<div class="Lesson">
+  <div class="L_title"> Stage 1 notes</div>
+  <div class="Concept"><b>1.HTML CSS Javascript</b></div>
+  <div class="Text"><p>They are all programming languages for making webpage. HTML is for the structure;CSS is for the style;Javascript is for the interactive elements.</P>
+    <p>The structure used to write HTML and organize elements in a webpage is like a tree. 
+    </p>
+    <div class="image"><img src="images/div_tree.png" alt="screen of the app"></div>
+    <p>Note: DOM(Document Object Model) refers to the tree structure.
+    </p>
+    <p>Tips: Use Chrome to open any webpage and open tools-Developer tool to see the source code of this webpage.
+    </p>
+  </div>
+
+  <div class="Concept"><b>2.HTML structure and BOX model</b></div>
+  <div class="Text"><p>All elements in the webpage are rectangular enen though they are displayed as other shapes. These elements can also be viewed as box in HTML environment. "div" is the tag name to include a box, followed by some attributes named "class" in HTML. By making structures like this in HTML, sorts of content can be classified hierarchically. Also, the structure enables the browser to recogize to correct pattern and part to be correctly displayed. What's more, it brings easy readability for other people who need to review the HTML code. See a example HTML code here:</p></div>
+  <div class="image"><img src="images/div.jpg" alt="screen of the app"></div>
+
+  <div class="Concept"><b>3.Use CSS</b></div>
+  <div class="Text"><p>CSS stands for Cascading Style Sheets. It used to add styles to our webpage. CSS has a important propery: inheritance. In the tree, the children can inherit the properties of their parents. Note that descendant only inherits text-related property not box-related property. Befefit of inheritance:</p>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;-Avoid repetitation, make the code more organized and simple to make changes. For example, if we want to change font of name for each pair of shoes in a shopping webpage, we just need to change one line of code in the "shoe name" class in CSS file.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;-Enable fast-loading webpage<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;-Clients save money on bandwidth<br>
+
+    <p>An example of CSS code<br>
+    h1 { <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;red;<br>
+    } 
+    A full structure of box contains margin, border, padding and content.</p>
+    </div>
+</div>
+<!--Stage 2 notes. Python programming-->
+<div class="Lesson">
+  <div class="L_title"> Stage 2 notes</div>
+  <div class="Concept"><b>1.Computer and program</b></div>
+  <div class="Text"> <p>A computer is a device that can be programmed to carry out a set of arithmetic or logical operations automatically. A computer program is a sequence of instructions which tells computer what to do. To make the computer do things, we need to communicate with computer with programming languages. We have to write or code these instructions in a programming language like Python so that the computer can understand efficiently and accurately. Examples of computer programs include a web browser, a text editor or Python.</P></div>
+
+  <div class="Concept"><b>2.Python programming</b></div>
+  <div class="Text"><p>Python is a high-level programming language as compared to low-level or machine language that deals with machine code. It means that the code we write is highly abstract and will not run on top of computer directly. It is interpreted by <em>Python interpreter</em> that translates our Python code to instructions that computer can follow.Typical Python expression will be like:<br>
+  print 4 - 5<br>
+  print 24 * 7 * 365<br>
+  </p></div>
+
+  <div class="Concept"><b>3.Variables and Strings</b></div>
+  <div class="Text"><p>A variable is a named memory location to store data that can change/vary. A variable can be given a value through an assignment statement. In Python, this statement assign a integer value 10 to a variable my_int.<br>
+  my_int = 10<br>
+  String is a data type in Python. To create a string variable, we can use single, double or triple quotes. Examples:<br>
+  string_1 = 'python'<br>
+  string_2 = "I loving playing tennis!!!"<br>
+  Indexing system can be used to subsetting a string.</p></div>
+
+  <div class="Concept"><b>4.Input->Function->Output</b></div>
+  <div class="Text"><p>A function is something that takes input, does something to that input, and then produces output. For example, a function named sum might take a sequence of numbers as input and produce the sum value of that list as output. Syntax: <br>
+    <pre>   def functionname(parameter):
+                  code block
+                  return statement<br></p></pre>
+  Defining a function only gives it a name, specifies the parameters that are to be included in the function and structures the blocks of code. Once the basic structure of a function is finalized, we can execute it by calling it from another function or directly from the Python prompt. The value in the return statement is the output result. If the function doesn't have a return, the call will not obtain anything from calling this function.<br><br>
+  </div>
+
+
+  <div class="Concept"><b>4.Lists and Loops</b></div>
+  <div class="Text"><p>A list is a structure data structure in Python to store a sequence of any type data elements. To create a list use expressions like:<br><pre>
+    list1 = ['Python', 2000]
+    list2 = [1, 2]
+    list3 = ["a", "b", "c", "d"]</pre>
+
+
+
+     We can use a For or a While loop to iterate over structured data. Also some useful operations on list are 
+     illustrated as following:<br><pre>
+      list1 = list1 + [2015, 2016] 
+      #list1 is now ['Python', 2000, 2015, 2016]
+      list2.append([2015, 2016])
+      #list2 is now [1, 2, [2015,2016]]</pre></p>
+    </div></div>
+
+
+<div class="Lesson">
+  <div class="L_title"> Stage 3 notes</div>
+  <div class="Concept"><b>1.Object Oriented Programming</b></div>
+  <div class="Text"> <p>Python has been an object-oriented language. Typically, this means that using the "Objects" and "Classes" as tools to build a program. Large programs are very difficult to write. Object Oriented Programs force designers to go through an extensive planning phase, which makes for better designs with less flaws. In addition, once a program reaches a certain size, Object Oriented Programs are actually easier to program than non-Object Oriented ones.<br>
+  Since programs are not disposable, so they need maintenance. Legacy code must be dealt with on a daily basis, either to be improved upon (for a new version of an exist piece of software) or made to work with newer computers and software. An Object Oriented Program is much easier to modify and maintain than a non-Object Oriented Program. So although a lot of work is spent before the program is written, less work is needed to maintain it over time.
+
+
+  </P></div>
+
+  <div class="Concept"><b>2.Classes and objects</b></div>
+  <div class="Text"><p>A class is like a blueprint or prototype where the user defines a set attributes including data members and methods. The concept object is a unique data structure defined by its class. An instance is just an individual object of a certain class; it contains bota data and procedures/methods. <br>
+    For example, we can define a class named Employee, where we can define different methods to get and set any attributes.  We can also define an constructor which is used to created an instance. The following code defines a class called Employee, which represents the employees in a company. Because basically all the employees are associated with common attributes like name, salary and company ID, we define this class in a way of abstract thinking. A class serves as a template for all objects whose type is that class.<pre>
+    class Employee:
+        # this is a constructor
+        def __init__(self, name, salary):
+              self.name = name
+              self.salary = salary
+
+        def get_name(self):
+              return self.name</pre>
+    To use Emplyee class, in another .py file, we can create instance objects using the following code. As a user we only need to know how to use the Employee class to create new object and call functions without knowing the implementation details. This is called abstraction which is basically separating interface from implementation.<pre>
+
+      #This would create an object of Employee class
+      emp1 = Employee("Mark", 5000)
+      #This call prints the name of this employee
+      print (emp1.get_name())</pre>
+  </p></div>
+
+  <div class="Concept"><b>3.Python module and library</b></div>
+  <div class="Text"><p>Modules in Python are simply Python files with the .py extension, which implement a set of functions. Modules are imported from other modules using the "import" command. The Python standard library comes with a number of modules that can be used both as modules and as command-line utilities. For example, if we want to import the module urllib, which enables us to create read data from URLs, using the following syntax:<pre>
+    # import the library
+    import urllib
+
+    # use it
+    urllib.urlopen(...)</pre>
+  </p></div>
+
+ <div class="Concept"><b>4.Inheritance</b></div>
+  <div class="Text"><p>Inheritance is a feature supported by Python for reusing code. For example, with the Employee class as a perent class, we can define a child class called Manager. The child class inherits the attributes of its parent class, and we can use those attributes as if they were defined in the child class. A child class can also override data members and methods from the parent.
+  </p></div>
+</div>
+
+</body>
+</html>
